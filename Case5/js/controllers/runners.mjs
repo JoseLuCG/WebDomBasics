@@ -5,6 +5,8 @@ export function dataToHTMLList (array) {
             const tdName = document.createElement("td");
             const tdTime = document.createElement("td");
             row.append(tdName, tdTime);
+            tdName.innerText = item.name;
+            tdTime.innerText = item.time;
             return row;
         }
     )
