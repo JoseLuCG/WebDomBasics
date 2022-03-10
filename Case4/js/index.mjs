@@ -4,3 +4,6 @@ function toggleShowCompletedHandler (event) {
         item.classList.toggle("hidden");
     }
 }
+
+const buttonToDelete = document.querySelector("#TaskDeleter");
+buttonToDelete.addEventListener("click", toggleShowCompletedHandler);
