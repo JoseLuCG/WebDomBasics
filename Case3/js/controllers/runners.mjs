@@ -1,4 +1,4 @@
-import {compareRunners} from "../aux/comparators.mjs"
+import {compareRunners} from "../auxiliar/comparators.mjs"
 
 export function dataToHTMLList (array) {
     array.sort(compareRunners)
